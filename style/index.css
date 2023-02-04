@@ -1,5 +1,6 @@
 body {
-    background-color: #333333;
+    background: rgb(70,70,70);
+    background: linear-gradient(90deg, rgba(70,70,70,1) 0%, rgba(23,23,23,1) 100%);
 }
 
 #typed {
@@ -9,8 +10,17 @@ body {
 .text-typing {
     text-align: center;
     font-size: 56px;
-    margin-top: 15%;
-    font-style:italic;
+    font-style:initial;
     color: rgb(255, 255, 255);
+    margin-top: 15%;
 }
 
+.box-text {
+    width: 1000px;
+    height: 500px;
+    margin-top: 8%;
+    border-style: solid;
+    border-color: rgb(164, 164, 164);
+    background-image: url("../../BackGif2.gif");
+    background-size: contain;
+}
