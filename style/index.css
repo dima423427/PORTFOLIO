@@ -1,0 +1,16 @@
+body {
+    background-color: #333333;
+}
+
+#typed {
+    display: inline;
+}
+
+.text-typing {
+    text-align: center;
+    font-size: 56px;
+    margin-top: 15%;
+    font-style:italic;
+    color: rgb(255, 255, 255);
+}
+
